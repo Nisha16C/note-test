@@ -14,18 +14,6 @@ requests = "^2.32.3"
 [tool.poetry.group.docs.dependencies]
 mkdocs = "^1.6.1"
 
-[tool.poetry.group.ldap.dependencies]
-django-auth-ldap = "^4.0"
-python-ldap = "^3.4"
- 
-[tool.poetry.group.monitoring.dependencies]
-django-prometheus = "^2.2"
- 
-[tool.poetry.group.utilities.dependencies]
-python-crontab = "^2.7"
-python-dotenv = "^1.0"
-environs = "^10.0"
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
