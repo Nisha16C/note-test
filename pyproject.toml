@@ -14,10 +14,6 @@ requests = "^2.32.3"
 [tool.poetry.group.docs.dependencies]
 mkdocs = "^1.6.1"
 
-[tool.poetry.group.cloud.dependencies]
-openstacksdk = "^1.0"
-kubernetes = "^26.1"
-
 
 [build-system]
 requires = ["poetry-core"]
