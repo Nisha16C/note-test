@@ -24,7 +24,6 @@ flake8 = "^4.0.1"
 
 [tool.poetry.group.db.dependencies]
 psycopg2 = "^2.9.3"
-sqlalchemy = "^1.4.32"
 
 [build-system]
 requires = ["poetry-core"]
